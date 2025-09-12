@@ -29,5 +29,5 @@ function prevSlide() {
     showSlide(currentSlide);
 }
 
-// Auto Slide every 4 seconds
+
 setInterval(nextSlide, 4000);
