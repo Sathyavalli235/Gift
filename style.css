@@ -78,9 +78,8 @@
     right: 20px;
 }
 
- /* Product Card Styles */
  .product-card {
-    background: #f8f8f8; /* Light Background */
+    background: #f8f8f8; 
     border-radius: 10px;
     padding: 40px 20px;
     text-align: center;
@@ -105,14 +104,12 @@
     border: 1px solid #ddd;
 }
 
-/* Image */
 .product-card img {
     width: 150px;
     height: 150px;
     object-fit: contain;
 }
 
-/* Text Styles */
 .product-name {
     font-weight: bold;
     font-size: 16px;
@@ -272,7 +269,7 @@
     height: 100px;
 }
 .send-btn {
-    background-color: #D9534F; /* Same as screenshot */
+    background-color: #D9534F; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -299,7 +296,6 @@
     padding: 10px;
 }
 
-/* Title */
 .title {
     font-size: 24px;
     font-weight: bold;
@@ -307,7 +303,6 @@
     margin-bottom: 20px;
 }
 
-/* Testimonial Box */
 .testimonial-box {
     display: none;
     background: white;
@@ -324,7 +319,6 @@
     animation: fadeIn 1s;
 }
 
-/* Quote Icon */
 .quote-icon {
     font-size: 40px;
     color: #d9534f;
@@ -333,7 +327,6 @@
     right: 20px;
 }
 
-/* Testimonial Name */
 .testimonial-name {
     font-weight: bold;
     color: #d9534f;
@@ -342,7 +335,6 @@
     margin: 0px;
 }
 
-/* Role */
 .testimonial-role {
     color: #777;
     font-size: 14px;
@@ -350,7 +342,6 @@
     margin: 10px 0px;
 }
 
-/* Testimonial Text */
 .testimonial-text {
     font-size: 16px;
     color: #555;
@@ -378,27 +369,23 @@
     background-color: #c9302c;
 }
 
-/* Footer Section */
 .footer {
     background: #222;
     color: white;
     padding: 20px 0px;
 }
 
-/* Footer Titles */
 .footer-title {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
-/* Footer Text */
 .footer p {
     font-size: 14px;
     color: #aaa;
 }
 
-/* Newsletter Input & Button */
 .newsletter-box {
     display: flex;
     gap: 10px;
@@ -422,7 +409,6 @@
     background-color: #c00;
 }
 
-/* Contact Info */
 .contact-info li {
     font-size: 14px;
     color: #aaa;
@@ -432,13 +418,11 @@
     gap: 10px;
 }
 
-/* White Color for Contact Icons */
 .contact-info i {
     font-size: 18px;
-    color: white; /* Changed to White */
+    color: white; 
 }
 
-/* Social Media Icons */
 .social-icons {
     text-align: center;
     margin-bottom: 20px;
@@ -455,14 +439,12 @@
     color: #f00;
 }
 
-/* White HR Line */
 .footer hr {
     border-color: white;
     opacity: 0.2;
     margin-top: 20px;
 }
 
-/* Footer Bottom */
 .footer-bottom {
     text-align: center;
     font-size: 14px;
@@ -470,15 +452,11 @@
     margin-top: 10px;
 }
 
-
-
-/* Animation */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Small Device Styling */
 @media (max-width: 767px) {
     .navbar {
         display: flex;
@@ -527,7 +505,6 @@
 }
 
 
-/* Medium & Large Device Styling */
 @media (min-width: 768px) {
     .header-title {
         text-align: center;
@@ -543,4 +520,5 @@
         justify-content: center;
         flex-grow: 1;
     }
+
 }
