@@ -32,3 +32,4 @@ function prevSlide() {
 
 setInterval(nextSlide, 4000);
 
+
